@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:vistahood_travel_ui/screens/widgets/destination_tap.dart';
+import 'package:vistahood_travel_ui/screens/widgets/hotel_carousel.dart';
 
 class HomeScreen extends StatefulWidget {
   //making icon selected
@@ -73,7 +74,10 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             SizedBox(height: 20.0),
             //------------------next section----------------------//
-            DestinationTab()
+            DestinationTab(),
+            SizedBox(height: 20),
+
+            HotelCarousel()
           ],
         ),
       ),
